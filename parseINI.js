@@ -1,4 +1,4 @@
-const {readFile, stat} = require("fs").promises;
+const {readFile} = require("fs").promises;
 const path = require('path');
 //ini parser
 function parseINI(str) {
