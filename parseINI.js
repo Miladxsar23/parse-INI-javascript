@@ -31,5 +31,5 @@ async function parser(pathname) {
 	return res;
 }
 
-exports.parsIni = parser;
+exports.parsIni = parseINI;
 parser(process.argv[2]).then(res => console.log(res), failure => console.log(failure))
